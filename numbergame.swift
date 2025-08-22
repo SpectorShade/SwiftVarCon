@@ -12,6 +12,7 @@ while adivinaNum != objNum
     {
         if numero < 1 || numero > 100 
         {
+            print("Numero invalido.")
             print("Introduce un numero valido (entre 1 y 100).")
             continue
         }
@@ -35,7 +36,7 @@ while adivinaNum != objNum
     } 
     else 
     { 
-        print("Numero invalido.")
+        print("Entrada invalida.")
         print("Introduce un numero que sea valido (entre 1 y 100).") 
     }
 }
