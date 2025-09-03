@@ -1,3 +1,4 @@
+//se agregaron comportamientos y objetos, el buscador recuerda donde ha visto a los otros jugadores y hay un sistema de energia.  De objetos hay invisibilidad y trampas que reducen la energia del buscador y lo hacen perder su turno.  Tambien se declara victoria como tal.
 enum RolesJuegoEscondidas{
     case contando
     case buscando_jugadores
@@ -379,5 +380,6 @@ while true {
        break
    }
 }
+
 
 
